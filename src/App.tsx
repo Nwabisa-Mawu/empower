@@ -1,11 +1,12 @@
-import './App.css'
+import './App.css';
+import Header from './components/header.component';
 
 function App() {
 
   return (
-    <>
-     <h1>Hello World!</h1>
-    </>
+    <div className="object-cover">
+     <Header />
+    </div>
   )
 }
 
